@@ -1,0 +1,15 @@
+@model IEnumerable<WeatherForecast>
+@using crud_experiment
+
+<html>
+<h1>Hello world!</h1>
+<ul>
+@foreach (var w in Model)
+{
+  <li>
+    @w.Summary
+  </li>
+}
+</ul>
+
+</html>
